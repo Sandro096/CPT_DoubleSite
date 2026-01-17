@@ -29,3 +29,5 @@ This repository contains my final networking project implemented in Cisco Packet
 - ACLs are applied directionally to limit traffic from guest/employee VLANs to sensitive server VLANs and to restrict management access to specific admin hosts/VLANs.
 - NAT exemptions are applied where VPN traffic must avoid translation.
 - Syslog servers per site enable local log aggregation and make forensic correlation and VPN troubleshooting easier.
+
+NOTE: The complete project is included in this repository and can be exported and tested directly in a Cisco Packet Tracer environment.
