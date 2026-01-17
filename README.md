@@ -10,7 +10,7 @@ This repository contains my final networking project implemented in Cisco Packet
 - On-site server rooms with shared services (DHCP, application/data servers, printing)
 - VPN tunnel(s) for secure site-to-site / remote access
 - Per-site dedicated **syslog** servers for centralized logging and diagnostics
---
+
 ## Key features implemented
 - **VLAN segmentation & trunking** to separate broadcast domains and enforce policy boundaries
 - **Inter-VLAN routing** (SVIs or router-on-a-stick where applicable)
