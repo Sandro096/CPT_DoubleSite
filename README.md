@@ -1,7 +1,7 @@
-# Final Networking Project — Cisco Packet Tracer
+# Networking Project — Cisco Packet Tracer
 
 ## Overview
-This repository contains my final networking project implemented in Cisco Packet Tracer (`SLUTUPPGIFT.pkt`). The design simulates a small-to-medium enterprise environment with structured segmentation, secure remote access (VPN), redundancy, per-site logging, QoS, and hands-on exercises for access control.
+This repository contains my final networking project implemented in Cisco Packet Tracer. The design simulates a small-to-medium enterprise environment with structured segmentation, secure remote access (VPN), redundancy, per-site logging, QoS, and hands-on exercises for access control.
 
 ## Topology
 - Layered design: core/edge routers, distribution and access switches
@@ -29,4 +29,3 @@ This repository contains my final networking project implemented in Cisco Packet
 - ACLs are applied directionally to limit traffic from guest/employee VLANs to sensitive server VLANs and to restrict management access to specific admin hosts/VLANs.
 - NAT exemptions are applied where VPN traffic must avoid translation.
 - Syslog servers per site enable local log aggregation and make forensic correlation and VPN troubleshooting easier.
-- Sensitive credentials and private notes are intentionally excluded from this public documentation.
